@@ -1,8 +1,7 @@
 body {
-                  background-color: white; /* Ensure the iframe has a white background */
-                }
-    
-                * {
+       background-color: white; 
+      }
+     * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,7 +20,6 @@ body {
     padding: 20px;
 }
 
-/* Top Bar */
 .top-bar {
     background-color: #111;
     color: white;
@@ -36,7 +34,6 @@ body {
     padding: 0 20px;
 }
 
-/* Hero Section */
 .hero-section {
     display: flex;
     gap: 20px;
@@ -92,7 +89,6 @@ body {
     object-fit: cover;
 }
 
-/* Needs Section */
 .needs-section {
     padding: 60px 20px;
     background-color: #f9f9f9;
@@ -138,7 +134,6 @@ body {
     font-weight: 500;
 }
 
-/* Eiger Section */
 .eiger-section {
     display: flex;
     gap: 20px;
@@ -194,7 +189,6 @@ body {
     object-fit: cover;
 }
 
-/* Gender Section */
 .gender-section {
     padding: 60px 20px;
     background-color: #fff;
@@ -233,7 +227,6 @@ body {
     color: #666;
 }
 
-/* Adventure Slider */
 .adventure-section {
     padding: 60px 20px;
     background-color: #f9f9f9;
@@ -302,7 +295,6 @@ body {
     right: 10px;
 }
 
-/* Bestsellers */
 .bestsellers-section {
     padding: 60px 20px;
     background-color: #fff;
@@ -369,7 +361,6 @@ body {
     background: #555;
 }
 
-/* Instagram Section */
 .instagram-section {
     padding: 60px 20px;
     background-color: #f9f9f9;
@@ -403,8 +394,6 @@ body {
     border: none;
     cursor: pointer;
 }
-
-/* Newsletter */
 .newsletter-section {
     padding: 60px 20px;
     background-color: #fff;
@@ -425,7 +414,6 @@ body {
     font-size: 1rem;
 }
 
-/* Footer */
 footer {
     background-color: #222;
     color: white;
@@ -518,7 +506,6 @@ footer {
     color: white;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .hero-section {
         flex-direction: column;
@@ -541,4 +528,5 @@ footer {
     .slider-arrow {
         display: none;
     }
+
 }
